@@ -1,18 +1,17 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meat charset="UTF-8">
-    <meat http-equiv="X-UA-Compatible" content="IE-edge">
-    <meat name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" type="" href="index.css">
-     <title>限时</title>
+    <script type="text/javascript">
+        function copy() {
+            var e = document.getElementById("copy");
+            e.select(); // 选择对象
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            alert("复制成功！");
+        }
+    </script>
 </head>
 <body>
-     <h3>V1</h3>
-     <a href="https://www.bilibili.com/video/BV15y4y1z7yD">向上天再借500年</a>
-     <a href="https://www.bilibili.com/video/BV1pj411b7QZ">See you again</a>
-     <a href="https://www.bilibili.com/video/BV1KM4y1j7pr">Erika</a>
-     <a href="https://www.bilibili.com/video/BV1y64y1n7XD">菜就多练</a>
-
-
+    <textarea id="copy">document.cookie ="SESSDATA=019520d0%2C1746083597%2Cc84ec%2Ab2CjB9p_AsD778vErK-cNAs4YZUBLR9o0vrC-PLoSziccwRVU4dXkjbKdvhLFCv9U7Rw8SVjRoZjNjcFRlT283alhWa3Y4VFRMQ080aUlxUFNPRGdjM21yTU5jUlBGNE9EdWczRktiOUd0VmZwc0g4eGF4ZUNFTVY0bW1RT3Y2ZGh4M2FUaEdzZUlnIIEC;domain=.bilibili.com;path=/"</textarea>
+    <input type="button" onclick="copy();" value="点击复制"></input>
 </body>
+</html>
